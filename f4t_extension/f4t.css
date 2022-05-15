@@ -1,0 +1,57 @@
+._robo__Button {
+    height: auto;
+    width: auto;
+    /* left: 420px;
+    top: 8px; */
+    line-height: 20px;
+    
+    border-radius: 50px;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px 0px;
+    border: transparent;
+    background: white;
+    cursor: pointer;
+    position: fixed;
+    font-family: Roboto, "Noto Sans Bengali UI", Arial, sans-serif;
+    color: #6C5CE7;
+    z-index: 9999;
+    /* display: flex; */
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    display: flex !important;
+    /* height: 100px;
+    width: 200px; */
+    /* background: black; */
+    /* position: absolute;
+    z-index: 10000; */
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 10;
+    top: 409px;
+    left: 1110px;
+    /* min-height: 70px; */
+    /* max-height: 500px; */
+    /* min-width: 155px; */
+    /* max-width: 650px; */
+}
+
+._robo__Button .text{
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 12px;
+    
+    /* position: fixed; */
+    /* padding: 50px 0 50px; */
+
+    /* background: #999FF0; */
+}
+
+
+
+._robo__Button .btn-icon{
+    height: 40px;
+    width: 40px;
+    /* position: fixed; */
+}

@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "F4T",
+    "version": "1.0",
+    "description": "F4T tracker",
+    "icons": {
+        "128": "logo.png",
+        "16": "logo.png",
+        "48": "logo.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "logo.png",
+            "24": "logo.png",
+            "32": "logo.png"
+        },
+        "default_title": "F4t tracker"
+        // "default_popup": "popup.html"  
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.free4talk.com/*"
+            ],
+            "js": [
+                "run.js"
+            ],
+            "css": ["f4t.css"]
+        }
+    ],
+    "host_permissions": [
+        "https://www.free4talk.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
